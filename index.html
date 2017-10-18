@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Application</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel = "stylesheet" href = "style.css">
+<script src="validate.js"></script>
+</head>
+<body>
+	<div class = "container">
+		<div class = "login">
+			<h1 class = "login-heading">
+				<strong>Welcome.</strong>Please login.
+			</h1>
+			
+			<form class="form" method="post" action="#">
+				<input type = "text" id = "u_Name" name = "user" placeholder = "Username"
+					required = "required"  class = "input-txt"/>
+					<input type = "password" id="password" name = "password" placeholder = "Password" 
+					required = "required" class = "input-txt"/>
+				<div class = "login-footer">
+					
+					<button type = "submit" id ="login" class = "btn btn--right">Sign in</button>
+				</div>
+		</form>
+			<h3>If you don't have account</h3><a href=" " onclick= "ShowPopup('NewUser.jsp')">ClickHere</a>
+		
+		</div>
+	</div>
+</body>
+</html>
